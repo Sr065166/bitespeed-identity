@@ -1,6 +1,6 @@
-# Bitespeed Identity Reconciliation
+# Customer Identity Reconciliation API
 
-A backend service that identifies and tracks customer identity across multiple purchases by linking different contact information to the same person.
+A backend service that identifies and links customer identities across multiple purchases by reconciling email addresses and phone numbers.
 
 ## Live Endpoint
 
@@ -13,9 +13,10 @@ POST https://bitespeed-identity-w634.onrender.com/identify
 - Database: SQLite via Prisma ORM
 - Hosting: Render.com
 
-## Problem Statement
+## Overview
 
-FluxKart.com customers often use different email addresses and phone numbers for each purchase. This service links all those different contact details to the same person, giving a unified customer identity.
+Customers often use different email addresses and phone numbers across purchases. 
+This service intelligently links related contacts into a unified customer identity.
 
 ## API Endpoint
 
